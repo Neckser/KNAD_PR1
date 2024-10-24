@@ -111,7 +111,7 @@ def qr_wifi(message):
         with io.BytesIO() as output:
             img.save(output, format='PNG')
             img_bytes = output.getvalue()
-bot.send_photo(message.chat.id, img_bytes, caption=f'''Ваш QR-код на ваш WI-FI:{login}
+        bot.send_photo(message.chat.id, img_bytes, caption=f'''Ваш QR-код на ваш WI-FI:{login}
      -----''')
         state = 'Good'
     except Exception as e:
@@ -179,15 +179,15 @@ def re(message):
 
 '''
        \`-._           __
-        \\  -..____,.'  .
+        \  -..____,.'  .
          :`.         /    \`.
-         :  )       :      : \
+         :  )       :      : \.
           ;'        '   ;  |  :
           )..      .. .:.`.;  :
          /::...  .:::...   ` ;
-         ; _ '    __        /:\
+         ; _ '    __        /:
          :o>   /\o_>      ;:. .
-        -. ;   ..--- /:.   \
+        -. ;   ..--- /:.   
         === \_/   ;=====_.':.     ;
          ,/'`--'...`--....        ;
               ;                    ;
@@ -202,7 +202,7 @@ def re(message):
       /\     ,/ \      ;:::::;     ;
     .:. \:..|    :     ; '.--|     ;
    ::.  :''  `-.,,;     ;'   ;     ;
-.-'. _.'\      / `;      \,__:      \
+.-'. _.'\      / `;      \,__:      |
 `---'    `----'   ;      /    \,.,,,/
                    ----     
 '''

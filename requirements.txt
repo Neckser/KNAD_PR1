@@ -1,4 +1,3 @@
 wifi_qrcode_generator
 qrcode
-sqlite3
 telebot
