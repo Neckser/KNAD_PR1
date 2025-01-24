@@ -6,7 +6,7 @@ import qrcode
 import sqlite3
 import datetime
 
-bot=TeleBot('8024489123:AAGcKDNvCpVEA4zdPwgTIgd91f-8lvS8VIs')
+bot=TeleBot('token')
 
 connection = sqlite3.connect('QR_database')
 cursor=connection.cursor()
